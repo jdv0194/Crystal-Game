@@ -1,3 +1,6 @@
+var win=0;
+var loss=0;
+
 function reset() {
   var randomNumber = Math.floor(Math.random() * 69) + 30;
   var myScore = 0;
