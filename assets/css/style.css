@@ -1,0 +1,43 @@
+body {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  text-justify: auto;
+}
+
+#container {
+  width: auto;
+  height: auto;
+  background-image: url("../images/cave1.jpg");
+  background-size: cover;
+  margin: auto;
+}
+
+.crystals {
+  height: 150px;
+  width: 150px;
+  border: 2px solid white;
+  margin: 30px;
+  display: inline-block;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+div {
+  border: 2px solid white;
+  height: 80px;
+  width: 200px;
+  display: inline-block;
+  font-size: 25px;
+  margin-left: 8px;
+}
+
+img:hover {
+  background: white;
+}
